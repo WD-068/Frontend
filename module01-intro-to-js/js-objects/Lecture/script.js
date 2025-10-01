@@ -61,7 +61,7 @@ user.job = "Web Developer"; // Adding new property
 console.log(user);
 
 // Calling an object method
-console.log(user.sayHi()); // Shows "Hello, my name is John, I'm 12 years old!"
+console.log(user.sayHi()); // Shows "Hello, my name is John, I'm 30 years old!"
 
 // ==========================================
 // SECTION 4: OBJECT DESTRUCTURING
@@ -73,7 +73,7 @@ console.log(user.sayHi()); // Shows "Hello, my name is John, I'm 12 years old!"
 
 // Basic destructuring
 const { firstName, age } = user;
-console.log(firstName, age); // Shows "John 12"
+console.log(firstName, age); // Shows "John 30"
 
 // Destructuring in function parameters
 function greet({ firstName, age }) {
@@ -81,4 +81,4 @@ function greet({ firstName, age }) {
 }
 
 // Using the function with our user object
-greet(user); // Shows "Hello, my name is John and I am 12 years old."
+greet(user); // Shows "Hello, my name is John and I am 30 years old."
