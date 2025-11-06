@@ -1,0 +1,36 @@
+.App {
+    width: 60rem;
+    min-height: 95vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 2rem;
+}
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: beige;
+}
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    gap: 1rem;
+}
+.navbar-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
